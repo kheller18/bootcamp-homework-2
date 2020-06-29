@@ -1,0 +1,119 @@
+/**
+ * Media Query Style Exercise: Solved;
+ **/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #D3D3D3 !important;
+}  
+
+.container-fluid {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+    font: bold;
+    padding: 15px;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body {
+        background-color: #D3D3D3;
+    }
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-color: #D3D3D3;
+    }
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+ 
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        background-color: #D3D3D3;
+    }
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+ 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        background-color: #D3D3D3;
+    }
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    
+    #sidebar {
+        margin-top: 40px;
+    }
+
+}
+
